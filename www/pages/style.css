@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.Fullscreen-body{
+    position: fixed;
+    height: 100vh;
+    overflow: hidden;
+}
+.Menu-scroll{
+    overflow:auto;
+    height: 80%;
+    margin-top: 35%;
+}
+.logo{
+    margin-left: 30px;
+    margin-top:30px;
+    margin-bottom: 30px;
+  
+}
+.logo-text{
+    margin-left: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 48px;
+color: #F2C94C;
+
+}
+.menu-heading{
+    font-family: 'Red Hat Display', sans-serif;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #5BBAFF;
+
+}
+
+.ant-table-wrapper {
+    width: 100%;
+}
+
+.Help-section{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+    float: left;
+    margin-left: 15px;
+}
+.Logout-section{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+    float: right;
+    margin-right: 15px;
+}
+.Option-section{
+    border-top: solid;
+    border-color: #F2C94C;
+    border-width:thin;
+    padding-top: 5px;
+    position:absolute;
+    bottom:3px;
+    width: 100%;
+}
+
+/* class for the reset of the pages PLEASE DON'T EDIT */
+  .Content-area{ 
+   margin-left:5%; 
+   position: absolute;
+    width:100%;
+  }
+  /* class for the reset of the pages PLEASE DON'T EDIT */
+
+  .a-link-text{
+    color: white !important;
+}
+
+.nav-logo {
+    float: left;
+    /* size: a4; */
+    margin-top: -22px;
+    margin-left: -50px;
+}
+.content-list{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.content-area-data{
+    height: 90vh;
+    position: fixed;
+    margin-top: 70px;
+    overflow: scroll;
+    width: 89%;
+    padding-bottom: 6%;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 700px) {
+    .content-area-data{
+        height: 90vh;
+        position: fixed;
+        margin-top: 70px;
+        overflow: scroll;
+        width: 100%;
+        margin-left: -100px;
+        padding-bottom: 6%;
+    }
+  }
+
+.right-login{
+    color: white;
+    float: right;
+
+}
+
+.link-text{
+    color: aliceblue;
+}
+
+.footer-fixed{
+    text-align: center;
+  margin-left:200px;
+   background-color: rgba(0, 0, 0, 0.65) !important;
+   color: white !important;
+   z-index: 1 !important;
+ margin-top: -32px;
+   height: 5px;
+   padding: 17px 41px !important;
+}
+
+.item-list{
+    overflow: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+    overflow-x:hidden;
+    overflow-y: hidden; 
+}
+.filter-block{
+   
+width: 100%;
+position: fixed;
+z-index: 1;
+background-color:
+white;
+    width: 100%;
+    
+}
+.footer-text{
+    margin-bottom: -10px;
+}
+.total-count{
+    float:right;
+    margin-right: 200px !important;
+    font-weight: 900;
+    
+    
+}

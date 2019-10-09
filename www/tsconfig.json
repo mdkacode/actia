@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "typeRoots": ["node_modules/@types", "src/@types"],
+    "files": ["src/@types/graphql.d.ts"],
+    "module": "esnext",
+    "lib": ["es6", "dom", "esnext.asynciterable"],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "importHelpers": true,
+    "strictNullChecks": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true
+  }
+}

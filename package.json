@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "workspaces": [
+    "api",
+    "www"
+  ],
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
